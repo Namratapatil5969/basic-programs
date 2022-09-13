@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +7,8 @@ namespace basic_programs
 {
     internal class Class4
     {
-        static void Main(string[] args)
-        {
+        //static void Main(string[] args)
+        //{
             //nesting of loop
             // *****
             // *****
@@ -17,9 +16,9 @@ namespace basic_programs
             // *****
             // *****
 
-            //for(int i=1;i<=5;i++)//row
+            //for(int i=1;i<=5;i++)//roW
             //{
-            //    for(int j=1;j<=5;j++)//coloumn
+            //    for(int j=1;j<=5;j++)//Coloumn
             //    {
             //        Console.Write("*");
             //    }
@@ -34,13 +33,13 @@ namespace basic_programs
             //1234
             //12345
 
-            //for(int i=1;i<=5;i++)//row
+            //    for (int i=1;i<=5;i++)//roW
             //{
-            //    for(int j=1;j<=i;j++)//coloumn
+            //    for(int j=1;j<=i;j++)//Coloumn
             //    {
             //        Console.Write(j);
             //    }
-            //    Console.WriteLine();
+            //      Console.WriteLine();
             //}
 
 
@@ -52,9 +51,9 @@ namespace basic_programs
             //54
             //5
 
-            //for(int i=1;i<=5;i++)//row
+            //for (int i = 1; i <= 5; i++)//roW
             //{
-            //    for(int j=5;j>=i;j--)
+            //    for (int j = 5; j >= i; j--)
             //    {
             //        Console.Write(j);
             //    }
@@ -72,16 +71,16 @@ namespace basic_programs
 
 
             //int i, j, z = 5;
-            //for(i=1;i<=z;i++)
-            //{
-            //    for(j=1;j<=i;j++)
+            //    for(i=1;i<=z;i++)
             //    {
-            //        Console.Write((char)(j+64));
+            //        for(j=1;j<=i;j++)
+            //        {
+            //            Console.Write((Char)(j+64));
 
+            //        }
+            //   Console.WriteLine("");
             //    }
-            //    Console.WriteLine("");
-            //}
-            
+
 
 
 
@@ -92,9 +91,9 @@ namespace basic_programs
             //12
             //1
 
-            //for (int i = 5; i >= 1; i--) //row
+            //for (int i = 5; i >= 1; i--) //roW
             //{
-            //    for (int j = 1; j <= i; j++) //coloumn
+            //    for (int j = 1; j <= i; j++) //Coloumn
             //    {
             //        Console.Write(j);
             //    }
@@ -111,26 +110,26 @@ namespace basic_programs
             //   * * *
             //  * * * *
 
-            int i,j,z;
-            for(i=1;i<=5;i++)
-            {
-                for(j=i;j<5;j++)
-                {
-                    Console.Write(" ");
-                }
+            //int i, j, z;
+            //for (i = 1; i <= 5; i++)
+            //{
+            //    for (j = i; j < 5; j++)
+            //    {
+            //        Console.Write(" ");
+            //    }
 
-                for (z = 1; z < i; z++)
-                {
-                    Console.Write("* ");
-                }
-                Console.WriteLine();
-            }
-           
-           
+            //    for (z = 1; z < i; z++)
+            //    {
+            //        Console.Write("* ");
+            //    }
+            //    Console.WriteLine();
+            //}
 
 
 
-        }
+
+
+        //}
 
     }
 }
